@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="text/html; charset=UTF-8">
+    <link rel="stylesheet"type="text/css" href="joke.css">
+    <script type="text/javascript" src="joke.js"></script>
+
+<title>joke</title>
+  </head>
+  <body>
+
+    <a target="new_blank" href="lagrandevadrouille0.mp4"><h1>la grande vadrouille</h1></a>
+    <div class= "container"><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <a target="new_blank" href="lagrandevadrouille1.mp4"><img src="lagrandevadrouille.png" width="300" class="louis" ></a>
+      <a target="new_blank" href="lagrandevadrouille2.mp4"><img src="vadrouille.jpg" class="louis"></a>
+      <a target="new_blank" href="lagrandevadrouille.mp4"><img src="bagette.jpg" class="louis"></a>
+    </div>
+    <audio id="myAudio" controls>
+      <source src="la_grande_vadrouille.mp3" type="audio/mpeg"></audio><br>
+        <button onclick="enableLoop()" type="button">Enable loop</button>
+        <button onclick="disableLoop()" type="button">Disable loop</button>
+
+
+
+        <script>
+        var aud = document.getElementById("myAudio");
+        aud.onended = function() {
+        alert("THANK'S EVERYONE");
+        };
+        var you = document.getElementById("myAudio");
+        function enableLoop(){
+          you.loop=true;
+          you.load();
+
+          }
+
+        function disableLoop(){
+          you.loop=false;
+          you.load();
+        }
+
+
+        </script>
+
+
+
+
+
+</body>
+</html>

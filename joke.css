@@ -1,0 +1,28 @@
+
+
+body{
+  background-image: url("louiscouleur.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: lightyellow;
+}
+
+h1{
+  font-size: 70px;
+  color:lightblue;
+  text-align: center;
+  text-decoration: underline;
+
+  }
+
+
+
+img:hover {
+  transform: skewY(25deg);
+}
+
+.louis{
+
+  margin: 40px;
+  transition: all 1s;
+}
